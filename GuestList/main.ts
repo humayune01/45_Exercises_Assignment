@@ -27,6 +27,8 @@ guestList.splice(middleIndex, 0, 'Asad');
 
 guestList.push('Farhan');
 
+console.log(`I am inviting ${guestList.length} people to dinner.`);
+
 for (let guest of guestList) {
     console.log(`Dear ${guest},\nI would like to invite you on dinner tonight.\nIt would be great if you join me.\nThank you`);
 }

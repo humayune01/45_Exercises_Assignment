@@ -17,6 +17,7 @@ var len = guestList.unshift('Shahroz');
 var middleIndex = Math.round(len / 2);
 guestList.splice(middleIndex, 0, 'Asad');
 guestList.push('Farhan');
+console.log("I am inviting ".concat(guestList.length, " people to dinner."));
 for (var _b = 0, guestList_3 = guestList; _b < guestList_3.length; _b++) {
     var guest = guestList_3[_b];
     console.log("Dear ".concat(guest, ",\nI would like to invite you on dinner tonight.\nIt would be great if you join me.\nThank you"));
