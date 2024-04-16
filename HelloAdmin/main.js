@@ -8,3 +8,7 @@ for (var _i = 0, usernames_1 = usernames; _i < usernames_1.length; _i++) {
         console.log("Hello ".concat(name_1, ", thank you for logging in again."));
     }
 }
+usernames = [];
+if (usernames.length < 1) {
+    console.log("We need to find some users!");
+}

@@ -9,3 +9,9 @@ for (let name of usernames)
         console.log(`Hello ${name}, thank you for logging in again.`);
     }
 }
+
+usernames = [];
+
+if (usernames.length < 1) {
+    console.log("We need to find some users!");
+}
